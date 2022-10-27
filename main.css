@@ -1,0 +1,13 @@
+.tabela {
+    border-style:solid;
+    border-color:yellow;
+    border-width:15px;
+    border-style:groove;
+    }
+    #bordasolid {
+    border-style:solid;
+    border-width:3px;
+    }
+    #imagem {
+    background-image:url(Dreamcast.png);
+    }
