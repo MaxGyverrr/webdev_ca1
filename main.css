@@ -6,7 +6,7 @@ table#design_table {
     padding: 10px;
 }
 
-table#design_table caption{
+table#design_table caption {
     color: rgb(85, 85, 85);
     font-size: 20pt;
     font-weight: bolder;
@@ -15,9 +15,8 @@ table#design_table caption{
 
 table#design_table th {
     border: 1px solid rgb(72, 182, 255);
-    vertical-align: top;
-    background: rgb(255, 255, 255);
-    padding: 15px;
+    background: rgb(233, 255, 233);
+    padding: 10px 35px 10px;
 }
 
 table#design_table td {
@@ -41,14 +40,14 @@ table#design_table .PK {
     background-image: url(key.png);
     background-size: 25px;
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-color: rgb(241, 255, 172);
+    background-position: bottom 50% right 5%;
+    background-color: rgb(255, 226, 130);
 }
 
 table#design_table .FK {
     background-image: url(foreign_key.png);
     background-size: 25px;
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-color: rgb(255, 172, 237);
+    background-position: bottom 50% right 5%;
+    background-color: rgb(255, 199, 243);
 }
