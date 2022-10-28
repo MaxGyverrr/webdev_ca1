@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta name="author" content="Maxwell W Ferreira">
     <meta name="discription" content="Tables HR Department">
-    <title>Table - Job Title</title>
+    <title>Table - Manages</title>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
 
@@ -17,52 +17,74 @@
     <a href="department_manager.html"><button>Department Manager</button></a>
     <a href="manages.html"><button>Manages</button></a>
     <table id="design_table">
-        <caption>Table - Job Title</caption>
+        <caption>Table - Manages</caption>
         <thead>
             <tr class="fixed_h">
-                <th rowspan="2" class="FK">job_title_ID</th>
-                <th>job_title</p></th>
+                <th rowspan="2" class="PK">manages_ID</p></th>
+                <th rowspan="2">date</th>
+                <th rowspan="2" class="FK">employee_ID(FK)</th>
+                <th rowspan="2" class="FK">department_manager_ID(FK)</th>
             </tr>
         </thead>
         <tr>
             <td>1</td>
-            <td>IT</td>
+            <td>12/10/2004</td>
+            <td>3</td>
+            <td>2</td>
         </tr>
         <tr>
             <td>2</td>
-            <td>Software Development</td>
+            <td>03/02/2011</td>
+            <td>2</td>
+            <td>1</td>
         </tr>
         <tr>
             <td>3</td>
-            <td>Support</td>
+            <td>11/09/2007</td>
+            <td>8</td>
+            <td>3</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>Help Desk</td>
+            <td>07/04/2005</td>
+            <td>10</td>
+            <td>4</td>
         </tr>
         <tr>
             <td>5</td>
-            <td>Networking</td>
+            <td>12/08/2011</td>
+            <td>5</td>
+            <td>2</td>
         </tr>
         <tr>
             <td>6</td>
-            <td>Hardware</td>
+            <td>18/05/2011</td>
+            <td>7</td>
+            <td>6</td>
         </tr>
         <tr>
             <td>7</td>
-            <td>Web Design</td>
+            <td>07/10/2011</td>
+            <td>2</td>
+            <td>7</td>
         </tr>
         <tr>
             <td>8</td>
-            <td>Database</td>
+            <td>14/08/2005</td>
+            <td>1</td>
+            <td>8</td>
         </tr>
         <tr>
             <td>9</td>
-            <td>Cloud</td>
+            <td>12/01/2002</td>
+            <td>8</td>
+            <td>9</td>
         </tr>
         <tr>
             <td>10</td>
-            <td>Marketing</td>
+            <td>15/02/2003</td>
+            <td>9</td>
+            <td>10</td>
         </tr>
 
     </table>
