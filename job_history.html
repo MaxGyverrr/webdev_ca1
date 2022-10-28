@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Maxwell W Ferreira">
@@ -8,17 +10,31 @@
 </head>
 
 <body>
-    <a href="index.html"><button>Employees</button></a>
-    <a href="job_title.html"><button>Job Title</button></a>
-    <a href="department.html"><button>Department</button></a>
-    <a href="job_history.html"><button>Job History</button></a>
-    <a href="department_manager.html"><button>Department Manager</button></a>
-    <a href="manages.html"><button>Manages</button></a>
+    <form style="display: inline" action="index.html" method="get">
+        <button>Employees</button>
+    </form>
+    <form style="display: inline" action="job_title.html" method="get">
+        <button>Job Title</button>
+    </form>
+    <form style="display: inline" action="department.html" method="get">
+        <button>Department</button>
+    </form>
+    <form style="display: inline" action="job_history.html" method="get">
+        <button>Job History</button>
+    </form>
+    <form style="display: inline" action="department_manager.html" method="get">
+        <button>Department Manager</button>
+    </form>
+    <form style="display: inline" action="manages.html" method="get">
+        <button>Manages</button>
+    </form>
+
     <table id="design_table">
         <caption>Table - Job History</caption>
         <thead>
             <tr class="fixed_h">
-                <th rowspan="2" class="PK">job_history_ID</p></th>
+                <th rowspan="2" class="PK">job_history_ID</p>
+                </th>
                 <th rowspan="2">date</th>
                 <th rowspan="2" class="FK">employee_ID(FK)</th>
                 <th rowspan="2" class="FK">department_ID(FK)</th>
