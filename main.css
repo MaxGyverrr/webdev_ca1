@@ -3,6 +3,7 @@ table#design_table {
     border-spacing: 0px;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
 }
 
 table#design_table caption{
@@ -49,8 +50,4 @@ table#design_table .FK {
     background-repeat: no-repeat;
     background-position: bottom;
     background-color: rgb(241, 255, 172);
-}
-
-#imagem {
-    background-image: url(Dreamcast.png);
 }
